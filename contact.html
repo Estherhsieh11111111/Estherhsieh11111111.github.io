@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+        rel="stylesheet">
+    <!-- CSS LIBRARY -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/vit-gallery.css">
+    <link rel="shortcut icon" type="text/css" href="images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css" />
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <!-- HEADER -->
+    <header class="header-sky">
+        <div class="container">
+            <!--HEADER-TOP-->
+            <div class="header-top">
+                <div class="header-top-left">
+                    <span><i class="cloud">
+                            <img src="网站素材/icons8-cloud-60.png" width="15" height="15">
+                        </i>25 °C</span>
+                    <span><i class="location">
+                            <img src="网站素材/icons8-location-60.png" width="15" height="15">
+                        </i> 文三路232号，浙江大学西溪校区</span>
+                    <span><i class="telephone" aria-hidden="true">
+                            <img src="网站素材/icons8-rotary-dial-telephone-60.png" width="15" height="15">
+                        </i> 193-5757-1157</span>
+                </div>
+                <div class="header-top-right">
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">CN<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">CN</a></li>
+                                <li><a href="#">ENG</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- END/HEADER-TOP -->
+            <section class="banner-tems text-center">
+                <div class="container">
+                    <div class="banner-content">
+                        <h2>留下您的联络方式</h2>
+                        <p>Contact and chat with me!</p>
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT -->
+            <section class="section-contact">
+                <div class="container">
+                    <div class="contact">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-5">
+                                <div class="text">
+                                    <div class="contact-form">
+                                        <form action="../homepage/contact.html" method="post">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <input list="Snames" class="field-text" name="Sname" id="Sname"
+                                                        placeholder="Name">
+                                                    <datalist id="Snames">
+                                                        <option value="Esther">
+                                                        <option value="Cathy">
+                                                        <option value="Cherry">
+                                                        <option value="Michael">
+                                                        <option value="Sunny">
+                                                    </datalist>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <select name="grade" class="flex-item2">
+                                                        <option value="g1">大一</option>
+                                                        <option value="g2">大二</option>
+                                                        <option value="g3">大三</option>
+                                                        <option value="g4">大四</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <input id="input1" class="field-text" name="school & major"
+                                                        placeholder="School & Major"></input>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <textarea cols="30" rows="10" name="message" class="field-textarea"
+                                                        placeholder="Write what do you want"></textarea>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <button type="submit" class="btn btn-room"
+                                                        onclick="printInput()">发送</button>
+                                                </div>
+                                                <script>
+                                                    function printInput() {
+                                                        let formInput = document.getElementById('input1')
+                                                        // console.log(formInput.value)
+                                                        alert(formInput.value)
+                                                    }
+                                                </script>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-lg-offset-1">
+                                <div class="small_content">
+                                    <h1>与我联系</h1>
+                                    <p>
+                                    <h3>主页还在建设中，</h3>
+                                    </p>
+                                    <p>
+                                    <h3>如果您有任何疑问或好的创意，欢迎与我交流！</h3>
+                                    </p>
+                                    <ul>
+                                        <li><i class="location">
+                                            </i> 文三路232号，浙江大学西溪校区北园</li>
+                                        <li><i class="telephone" aria-hidden="true">
+                                            </i> 193-5757-1157</li>
+                                        <li>3200101765@zju.edu.cn</li>
+                                    </ul>
+                                    <div class="link">
+                                        <a href="./index.html" class="green1" target="_blank">
+                                            <h4>返回主页</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END / CONTACT -->
+
+            <!--SCOLL TOP-->
+            <a href="#" title="sroll" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+            <!--END / SROLL TOP-->
+            <!-- LOAD JQUERY -->
+            <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+            <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/vit-gallery.js"></script>
+            <script type="text/javascript" src="js/jquery.countTo.js"></script>
+            <script type="text/javascript" src="js/jquery.appear.min.js"></script>
+            <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap-select.js"></script>
+            <script type="text/javascript" src="js/jquery.littlelightbox.js"></script>
+            <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+            <script src="http://ditu.google.cn/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4"></script>
+            <!-- Custom jQuery -->
+            <script type="text/javascript" src="js/sky.js"></script>
+</body>
+
+</html>
